@@ -9,6 +9,11 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get("https://www.orangehrm.com/hris-hr-software-demo/")
 
 
+print("edited by kiran")
+
+
+
+
 def select_dropdown(ele, value):
     select = Select(ele)
     select.select_by_visible_text(value)
